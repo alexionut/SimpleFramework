@@ -76,7 +76,32 @@ s.source       = { :git => "https://github.com/alexionut/SimpleFramework.git", :
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
+# Web sockets
+s.dependency 'ActionCableClient'
+
+# Networking
+s.dependency 'Alamofire', '4.0.1'
+s.dependency 'SwiftyJSON', '3.1.1'
+s.dependency 'ObjectMapper', '2.1.0'
+
+#Persistence
+s.dependency 'RealmSwift'
+s.dependency 'ObjectMapper+Realm'
+
+#Distribution
+s.dependency 'Crashlytics'
+s.dependency 'Fabric', '1.6.9'
+s.dependency 'Bugfender', '~> 2.0'
+
+# UI
+s.dependency 'SlackTextViewController'
+s.dependency 'AlamofireImage', '~> 3.1'
+s.dependency 'ActiveLabel'
 s.dependency 'SKPhotoBrowser'
+s.dependency 'TTTAttributedLabel'
+s.dependency 'JTSImageViewController'
+
+s.dependency 'SwiftMessages'
 
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
