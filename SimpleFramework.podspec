@@ -76,6 +76,7 @@ s.source       = { :git => "https://github.com/alexionut/SimpleFramework.git", :
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
+s.dependency 'SKPhotoBrowser'
 
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
