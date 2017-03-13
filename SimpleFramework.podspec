@@ -89,8 +89,6 @@ s.dependency 'RealmSwift'
 s.dependency 'ObjectMapper+Realm'
 
 #Distribution
-s.dependency 'Crashlytics'
-s.dependency 'Fabric', '1.6.9'
 s.dependency 'Bugfender', '~> 2.0'
 
 # UI
